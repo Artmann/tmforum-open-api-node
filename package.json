@@ -1,0 +1,30 @@
+{
+  "name": "tmforum-open-api-node",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/artmann/tmforum-open-api-node",
+  "author": "Christoffer Artmann",
+  "license": "unlicensed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "node --experimental-specifier-resolution=node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/node": "^20.12.11",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/koa": "^2.15.0",
+    "dotenv": "^16.4.5",
+    "koa": "^2.15.3",
+    "koa-router": "^12.0.1"
+  }
+}
